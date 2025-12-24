@@ -193,11 +193,7 @@ const ServicesSection = () => {
                 tier.popular ? 'border-primary/50 glow-primary' : ''
               }`}
             >
-              {tier.popular && (
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-primary text-primary-foreground text-xs font-bold">
-                  Most Popular
-                </div>
-              )}
+              
               
               <div className="text-center mb-6">
                 <div className={`inline-flex w-14 h-14 rounded-xl items-center justify-center mb-4 ${
